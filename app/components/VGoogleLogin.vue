@@ -21,7 +21,7 @@ const loginWithGoogle = () => {
 .google-login-button {
     width: 40vw;
     max-width: 300px;
-    min-width: 200px;
+    min-width: 300px;
     height: 60px;
     border: 1px solid #121212;
     border-radius: 12px;

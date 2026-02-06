@@ -10,10 +10,13 @@ onBeforeMount(() => {
 </script>
 <template>
     <UContainer>
-        <UButton color="primary">
-            First Button
-        </UButton>
+        <div class="flex flex-col gap-5 items-start justify-start">
+            <div class="text-3xl font-semibold">
+                Welcome to Sudotech Theater
+            </div>
 
+            <UButton color="secondary" @click="navigateTo('/theaters')">Go to Theaters</UButton>
+        </div>
     </UContainer>
 
 </template>

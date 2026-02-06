@@ -2,7 +2,7 @@
 
 // export default defineNuxtPlugin(() => {
 //   const socket = io("http://localhost:3001", {
-//     transports: ["websocket"], // ป้องกัน polling งงๆ
+//     transports: ["websocket"],
 //   })
 
 //   return {

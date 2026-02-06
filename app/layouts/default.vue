@@ -29,6 +29,7 @@ const isShowMenu = ref(false);
     padding-left: 240px;
     padding-bottom: 80px;
     padding-top: 64px;
+    margin: 24px;
 }
 
 .responsive-footer {
